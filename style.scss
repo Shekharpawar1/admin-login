@@ -16,48 +16,6 @@ body {
 }
 
 .container {
-    display: -ms-grid;
-    display: grid;
-    background: white;
-    -ms-grid-columns: repeat(9, minmax(20rem, 1fr));
-    grid-template-columns: repeat(9, minmax(20rem, 1fr));
-    -ms-grid-rows: repeat(6, minmax(20rem, 1fr));
-    grid-template-rows: repeat(6, minmax(20rem, 1fr));
-    grid-area: 1/1/5/9;
-    border-radius: .5rem;
-
-    .sidebar {
-        background: black;
-        color: white;
-
-        padding: 2rem;
-        grid-column: 1/2;
-        grid-row: 1/span 6;
-        padding: 1rem;
-        gap: 1rem;
-
-        h1 {
-            padding: 1rem 0rem;
-        }
-    }
-
-    ul {
-        list-style: none;
-        margin-top: 2rem;
-
-        li {
-            display: flex;
-            flex-direction: row;
-            gap: 1rem;
-            >*{
-                justify-content: space-between;
-            }
-
-           
-        }
-
-    }
-
-
-
+   display: 
+ 
 }
